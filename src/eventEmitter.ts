@@ -60,15 +60,13 @@ export const purchaseUpdatedListener = (
   );
 
   if (isAndroid) {
-    getAndroidModule()
-      .startListening()
-      .catch((error: unknown) => {
-        if (errorCallback) {
-          errorCallback(error);
-        } else {
-          throw error;
-        }
-      });
+    getAndroidModule().startListening().catch((error: unknown) => {
+      if (errorCallback) {
+        errorCallback(error);
+      } else {
+        throw error;
+      }
+    });
   }
 
   return emitterSubscription;

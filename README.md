@@ -15,14 +15,12 @@
 **react-native-iap will be replaced by [expo-iap](https://github.com/hyochan/expo-iap)** for improved maintenance and better compatibility with modern React Native development.
 
 ### Why the change?
-
 - Better maintenance and faster updates
 - Full StoreKit 2 support for iOS
 - Modern architecture using Expo Modules
 - Works with both Expo and bare React Native projects
 
 ### Learn more
-
 - 📢 [Official announcement on X](https://x.com/hyodotdev/status/1939420943665049961)
 - 💬 [Discussion #2754](https://github.com/hyochan/react-native-iap/discussions/2754)
 - 🚀 [expo-iap repository](https://github.com/hyochan/expo-iap)
@@ -39,7 +37,6 @@ The [expo-iap](https://github.com/hyochan/expo-iap) library is production-ready 
 - 🏗️ **Modern Features**: For TurboModules support and latest React Native features, please migrate to [expo-iap](https://github.com/hyochan/expo-iap)
 
 **Migration is highly recommended** for:
-
 - TurboModules support
 - Better performance and stability
 - Continued updates and support
